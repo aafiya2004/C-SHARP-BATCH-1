@@ -1,0 +1,39 @@
+--TASK 2
+--Enrolling a student in the course
+insert into enrollments(enrollment_id,student_id,course_id,enrollment_date) values
+(11,5,107,'2024-02-08')
+select*from enrollments
+
+--updating email address of a teacher
+select*from teacher
+update teacher
+set email='linda.lopez123@example.com'
+where teacher_id=2
+
+--deleting an enrollment record
+delete from enrollments
+where student_id=6 and course_id=106
+select*from enrollments
+
+--updating courses table
+update courses
+set teacher_id=5
+where course_id=107
+select*from courses
+
+--deleting record from students table
+delete from students
+where student_id=4
+delete from enrollments 
+where student_id=4
+delete from payments
+where student_id=4
+select*from payments
+select*from students
+select*from enrollments
+
+--updating payments
+update payments
+set amount=1350
+where payment_id=5
+select*from payments
