@@ -99,7 +99,6 @@ select format(donationdate, 'MMMM yyyy') as month_year, sum(donationamount) as t
 from donations
 where donationamount is not null
 group by format(donationdate, 'MMMM yyyy')
-order by min(donationdate)
 
 --11) distinct breeds for all pets that are either aged between 1 and 3 years or older than 5 years
 select distinct breed from pets
