@@ -22,17 +22,12 @@ from enrollments
 group by course_id) as maximum_enrollments)
 
 --total payments made for each course
-select t.teacher_id, t.first_name, t.last_name, 
-(select sum(p.amount) 
-from payments p 
-where p.student_id in
-(select e.student_id 
-from enrollments e 
-where e.course_id in
-(select c.course_id 
-from Courses c 
-where c.teacher_id = t.teacher_id))) as total_payments
-from Teacher t
+select t.teacher_id, t.first_name, t.last_name, sum(p.amount) as total_payments
+from teacher t
+join Courses c on t.teacher_id=c.teacher_id
+join Enrollments e on c.course_id=e.course_id
+join Payments p on e.student_id=p.student_id
+group by t.teacher_id,t.first_name,t.last_name
 
 --total number of students enrolled in all courses
 select e.student_id, s.first_name, s.last_name from enrollments e
