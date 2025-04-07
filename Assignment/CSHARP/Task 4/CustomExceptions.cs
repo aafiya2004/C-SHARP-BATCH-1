@@ -42,12 +42,6 @@ namespace StudentInformationSystem.CustomExceptions
         public class InvalidTeacherDataException : Exception 
     { 
         public InvalidTeacherDataException(string msg) : base(msg) { } 
-    }
-        /*public class InsufficientFundsException : Exception 
-    { 
-        public InsufficientFundsException(string msg) : base(msg) { } 
-    }*/
-
-
+    }       
     
 }
