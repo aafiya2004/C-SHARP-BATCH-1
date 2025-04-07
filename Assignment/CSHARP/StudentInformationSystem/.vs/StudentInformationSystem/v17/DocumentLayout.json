@@ -1,0 +1,391 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\dao\\enrollmentreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\dao\\enrollmentreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\dao\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\dao\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\sis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\sis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\dao\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\dao\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\dao\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\dao\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\dao\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\dao\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\teachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\teachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\enrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\enrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\main\\sis_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\main\\sis_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\util\\dbconnutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\util\\dbconnutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\studentinformationsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\studentinformationsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\dao\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\dao\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|c:\\users\\aafiy\\source\\repos\\studentinformationsystem\\studentinformationsystem\\customexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AA3DD-2DA1-4F02-BA8E-4D58B36DE07E}|StudentInformationSystem\\StudentInformationSystem.csproj|solutionrelative:studentinformationsystem\\customexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\ENOLLMENTS_MAIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentInformationSystem\\Main\\ENOLLMENTS_MAIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\PAYMENT_OUTPUT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentInformationSystem\\Main\\PAYMENT_OUTPUT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\TEACHER_MAIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentInformationSystem\\Main\\TEACHER_MAIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\STUDENT_MAIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentInformationSystem\\Main\\STUDENT_MAIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\COURSE_MAIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentInformationSystem\\Main\\COURSE_MAIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SIS.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\SIS.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\SIS.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\SIS.cs",
+              "RelativeToolTip": "StudentInformationSystem\\SIS.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwEQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T12:26:47.149Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\StudentService.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\DAO\\StudentService.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\StudentService.cs",
+              "RelativeToolTip": "StudentInformationSystem\\DAO\\StudentService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:40:28.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\Program.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Main\\Program.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\Program.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Main\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwCEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:49:51.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnrollmentReport.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\EnrollmentReport.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\DAO\\EnrollmentReport.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\EnrollmentReport.cs",
+              "RelativeToolTip": "StudentInformationSystem\\DAO\\EnrollmentReport.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA0wDQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:43:06.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DBConnUtil.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Util\\DBConnUtil.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Util\\DBConnUtil.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Util\\DBConnUtil.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Util\\DBConnUtil.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T05:40:47.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITeacherService.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\ITeacherService.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\DAO\\ITeacherService.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\ITeacherService.cs",
+              "RelativeToolTip": "StudentInformationSystem\\DAO\\ITeacherService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:28:07.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Payments.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Payments.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Payments.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Payments.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Payments.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:07:55.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Courses.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Courses.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Courses.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Courses.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowCMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:32:24.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\PaymentService.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\DAO\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\PaymentService.cs",
+              "RelativeToolTip": "StudentInformationSystem\\DAO\\PaymentService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:32:53.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Student.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Student.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Student.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Student.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAzwJsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:47:09.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeacherService.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\TeacherService.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\DAO\\TeacherService.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\TeacherService.cs",
+              "RelativeToolTip": "StudentInformationSystem\\DAO\\TeacherService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwE0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:18:04.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Teachers.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Teachers.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Teachers.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Teachers.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Teachers.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:55:24.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Enrollments.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Enrollments.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Enrollments.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Enrollments.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Enrollments.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvxkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:43:15.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SIS_MAIN.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\SIS_MAIN.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Main\\SIS_MAIN.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\SIS_MAIN.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Main\\SIS_MAIN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T04:15:46.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ENOLLMENTS_MAIN.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\ENOLLMENTS_MAIN.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Main\\ENOLLMENTS_MAIN.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\ENOLLMENTS_MAIN.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Main\\ENOLLMENTS_MAIN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T05:04:26.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PAYMENT_OUTPUT.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\PAYMENT_OUTPUT.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Main\\PAYMENT_OUTPUT.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\PAYMENT_OUTPUT.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Main\\PAYMENT_OUTPUT.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T04:54:08.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TEACHER_MAIN.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\TEACHER_MAIN.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Main\\TEACHER_MAIN.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\TEACHER_MAIN.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Main\\TEACHER_MAIN.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T04:47:36.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "STUDENT_MAIN.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\STUDENT_MAIN.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Main\\STUDENT_MAIN.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\STUDENT_MAIN.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Main\\STUDENT_MAIN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T04:35:31.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "COURSE_MAIN.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\COURSE_MAIN.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\Main\\COURSE_MAIN.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\Main\\COURSE_MAIN.cs",
+              "RelativeToolTip": "StudentInformationSystem\\Main\\COURSE_MAIN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T04:39:48.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentInformationSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\StudentInformationSystem.csproj",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\StudentInformationSystem.csproj",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\StudentInformationSystem.csproj",
+              "RelativeToolTip": "StudentInformationSystem\\StudentInformationSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T13:32:05.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\DAO\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\DAO\\IPaymentService.cs",
+              "RelativeToolTip": "StudentInformationSystem\\DAO\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:31:55.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomExceptions.cs",
+              "DocumentMoniker": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\CustomExceptions.cs",
+              "RelativeDocumentMoniker": "StudentInformationSystem\\CustomExceptions.cs",
+              "ToolTip": "C:\\Users\\aafiy\\source\\repos\\StudentInformationSystem\\StudentInformationSystem\\CustomExceptions.cs",
+              "RelativeToolTip": "StudentInformationSystem\\CustomExceptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T08:10:23.066Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

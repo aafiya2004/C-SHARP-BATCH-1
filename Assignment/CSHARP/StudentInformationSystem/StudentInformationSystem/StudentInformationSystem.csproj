@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Main\COURSE_MAIN.cs" />
+    <Compile Remove="Main\ENOLLMENTS_MAIN.cs" />
+    <Compile Remove="Main\PAYMENT_OUTPUT.cs" />
+    <Compile Remove="Main\SIS_MAIN.cs" />
+    <Compile Remove="Main\STUDENT_MAIN.cs" />
+    <Compile Remove="Main\TEACHER_MAIN.cs" />
+    <Compile Remove="Util\DBPropertyUtil.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Util\DBconfig.properties" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+</Project>
