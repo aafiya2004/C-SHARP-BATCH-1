@@ -55,6 +55,8 @@ namespace StudentInformationSystem.DAO
 
                     int newTeacherId = (int)insertCmd.ExecuteScalar();
                     return newTeacherId;
+
+            
                 }
             }
         }
@@ -102,6 +104,20 @@ namespace StudentInformationSystem.DAO
                     else
                     {
                         Console.WriteLine("Failed to assign instructor.");
+                    }
+                }
+
+                string selectQuery = "SELECT * FROM courses";
+                using (SqlCommand selectCmd = new SqlCommand(selectQuery, conn))
+                {
+                    using (SqlDataReader reader = selectCmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Console.WriteLine($"Course ID: {reader["CourseID"]}, " +
+                                $"Course Name: {reader["CourseName"]}, " +
+                                $"Instructor Name: {reader["InstructorName"]}");
+                        }
                     }
                 }
             }

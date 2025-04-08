@@ -28,14 +28,14 @@ namespace StudentInformationSystem.DAO
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                SqlTransaction transaction = conn.BeginTransaction();
+     
 
                 try
                 {
                  
                     string insertStudent = "INSERT INTO Students (student_id, first_name, last_name, date_of_birth, email, phone_no) " +
                                            "VALUES (@StudentId, @FirstName, @LastName, @DOB, @Email, @Phone)";
-                    SqlCommand cmd = new SqlCommand(insertStudent, conn, transaction);
+                    SqlCommand cmd = new SqlCommand(insertStudent, conn);
                     cmd.Parameters.AddWithValue("@StudentId", student.StudentId);
                     cmd.Parameters.AddWithValue("@FirstName", student.FirstName);
                     cmd.Parameters.AddWithValue("@LastName", student.LastName);
@@ -51,34 +51,67 @@ namespace StudentInformationSystem.DAO
                     {
           
                         string checkCourse = "SELECT COUNT(*) FROM Courses WHERE CourseID = @CourseId";
-                        SqlCommand checkCmd = new SqlCommand(checkCourse, conn, transaction);
+                        SqlCommand checkCmd = new SqlCommand(checkCourse, conn);
                         checkCmd.Parameters.AddWithValue("@CourseId", courseId);
                         int courseExists = (int)checkCmd.ExecuteScalar();
 
                         if (courseExists == 0)
                         {
-                            Console.WriteLine($"Course with ID {courseId} does not exist. Skipping enrollment.");
+                            Console.WriteLine($"Course with ID {courseId} does not exist");
                             continue;
                         }
 
                 
                         string enroll = "INSERT INTO Enrollments (enrollment_id, student_id, course_id, enrollment_date) " +
                                         "VALUES (@EnrollmentID, @StudentId, @CourseId, @EnrollmentDate)";
-                        SqlCommand enrollCmd = new SqlCommand(enroll, conn, transaction);
-                        enrollCmd.Parameters.AddWithValue("@EnrollmentID", enrollmentCounter++);
-                        enrollCmd.Parameters.AddWithValue("@StudentId", student.StudentId);
-                        enrollCmd.Parameters.AddWithValue("@CourseId", courseId);
-                        enrollCmd.Parameters.AddWithValue("@EnrollmentDate", enrollmentDate);
+                        SqlCommand enrolCmd = new SqlCommand(enroll, conn);
+                        enrolCmd.Parameters.AddWithValue("@EnrollmentID", enrollmentCounter++);
+                        enrolCmd.Parameters.AddWithValue("@StudentId", student.StudentId);
+                        enrolCmd.Parameters.AddWithValue("@CourseId", courseId);
+                        enrolCmd.Parameters.AddWithValue("@EnrollmentDate", enrollmentDate);
 
-                        enrollCmd.ExecuteNonQuery();
+                        enrolCmd.ExecuteNonQuery();
                     }
 
-                    transaction.Commit();
-                    Console.WriteLine("Student enrolled and courses registered successfully.");
+                    string selectstud = "SELECT * FROM Students";
+                    SqlCommand studCmd = new SqlCommand(selectstud, conn);
+                    using(SqlDataReader reader = studCmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            int studentId = reader.GetInt32(0);
+                            string firstName = reader.GetString(1);
+                            string lastName = reader.GetString(2);
+                            DateTime dob = reader.GetDateTime(3);
+                            string email = reader.GetString(4);
+                            string phoneNo = reader.GetString(5);
+                            Console.WriteLine($"StudentID: {studentId}, Name: {firstName} {lastName}, DOB: {dob.ToShortDateString()}, Email: {email}, Phone: {phoneNo}");
+                        }
+                    }
+
+
+
+
+                    string selectenroll = "SELECT * FROM Enrollments";
+                    SqlCommand enrollCmd = new SqlCommand(selectenroll, conn);
+
+                    using (SqlDataReader reader = enrollCmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            int enrollmentId = reader.GetInt32(0);
+                            int studentId = reader.GetInt32(1);
+                            int courseId = reader.GetInt32(2);
+                            DateTime date = reader.GetDateTime(3);
+
+                            Console.WriteLine($"EnrollmentID: {enrollmentId}, StudentID: {studentId}, CourseID: {courseId}, Date: {date.ToShortDateString()}");
+                        }
+                    }
+                
                 }
                 catch (Exception ex)
                 {
-                    transaction.Rollback();
+                   
                     Console.WriteLine("Enrollment failed: " + ex.Message);
                 }
             }

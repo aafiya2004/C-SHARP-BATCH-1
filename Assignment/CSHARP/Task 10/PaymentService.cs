@@ -56,6 +56,21 @@ namespace StudentInformationSystem.DAO
                         Console.WriteLine("Failed to record payment.");
                     }
                 }
+
+                string selectPaymentQuery = "SELECT * FROM payments";
+                using (SqlCommand selectCmd = new SqlCommand(selectPaymentQuery, conn))
+                {
+                    using (SqlDataReader reader = selectCmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {   int studentIdfromdb = reader.GetInt32(0);
+                            double amountfromdb = reader.GetDouble(1);
+                            DateTime paymentDatefromdb = reader.GetDateTime(2);
+
+                            Console.WriteLine($"Student ID: {studentIdfromdb}, Amount: {amountfromdb}, Payment Date: {paymentDatefromdb}");
+                        }
+                    }
+                }
             }
         }
     }
