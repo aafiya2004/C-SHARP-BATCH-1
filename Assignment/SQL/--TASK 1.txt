@@ -1,0 +1,129 @@
+--TASK 1
+create database SSIDB
+--creating tables
+create table students(
+student_id int,
+first_name varchar(20),
+last_name varchar(20),
+date_of_birth date,
+email varchar(100),
+phone_no varchar(10))
+
+
+create table teacher(
+teacher_id int primary key,
+first_name varchar(20) NOT NULL,
+last_name varchar(20),
+email varchar(100) UNIQUE NOT NULL
+)
+
+create table courses(
+course_id int primary key,
+course_name varchar(50),
+credits int,
+teacher_id int references teacher(teacher_id)
+)
+
+create table enrollments(
+enrollment_id int primary key,
+student_id int references students(student_id),
+course_id int references courses(course_id),
+enrollment_date date 
+)
+
+create table payments(
+payment_id int primary key,
+student_id int references students(student_id),
+amount float,
+payment_date date)
+ 
+
+-- constraints for referential integrity
+alter table payments
+ alter column payment_id int NOT NULL;
+
+ alter table enrollments
+alter column enrollment_id int NOT NULL;
+
+alter table courses
+alter column course_id int NOT NULL;
+
+alter table students
+alter column phone_no varchar(10) NOT NULL;
+
+alter table students
+alter column student_id int NOT NULL;
+
+alter table students 
+add constraint pk_students primary key(student_id);
+
+alter table students
+alter column first_name varchar(20) NOT NULL;
+
+alter table students
+alter column email varchar(100) NOT NULL;
+
+alter table students
+alter column phone_no varchar(10) NOT NULL;
+
+--inserting values 
+insert into students(student_id,first_name,last_name,date_of_birth,email,phone_no) values
+(1, 'John', 'Doe', '2002-05-15', 'john.doe@example.com', '9876543210'),
+(2, 'Emma', 'Smith', '2001-09-21', 'emma.smith@example.com', '9123456789'),
+(3, 'Liam', 'Johnson', '2003-01-11', 'liam.johnson@example.com', '9234567890'),
+(4, 'Olivia', 'Brown', '2000-07-30', 'olivia.brown@example.com', '9345678901'),
+(5, 'Noah', 'Williams', '2002-12-10', 'noah.williams@example.com', '9456789012'),
+(6, 'Ava', 'Jones', '2001-06-18', 'ava.jones@example.com', '9567890123'),
+(7, 'William', 'Garcia', '2003-03-25', 'william.garcia@example.com', '9678901234'),
+(8, 'Sophia', 'Martinez', '2000-10-05', 'sophia.martinez@example.com', '9789012345'),
+(9, 'James', 'Anderson', '2002-02-14', 'james.anderson@example.com', '9890123456'),
+(10, 'Isabella', 'Thomas', '2001-08-29', 'isabella.thomas@example.com', '9901234567');
+
+
+insert into teacher (teacher_id, first_name, last_name, email) values
+(1, 'Michael', 'Clark', 'michael.clark@example.com'),
+(2, 'Linda', 'Lopez', 'linda.lopez@example.com'),
+(3, 'Robert', 'Wilson', 'robert.wilson@example.com'),
+(4, 'Elizabeth', 'Taylor', 'elizabeth.taylor@example.com'),
+(5, 'David', 'Lee', 'david.lee@example.com'),
+(6, 'Jennifer', 'Hall', 'jennifer.hall@example.com'),
+(7, 'Richard', 'Allen', 'richard.allen@example.com'),
+(8, 'Jessica', 'Young', 'jessica.young@example.com'),
+(9, 'Charles', 'King', 'charles.king@example.com'),
+(10, 'Patricia', 'Scott', 'patricia.scott@example.com');
+
+insert into courses (course_id, course_name, credits, teacher_id) values
+(101, 'Mathematics', 4, 1),
+(102, 'Physics', 3, 2),
+(103, 'Chemistry', 3, 3),
+(104, 'Biology', 4, 4),
+(105, 'Computer Science', 3, 5),
+(106, 'History', 2, 6),
+(107, 'Geography', 2, 7),
+(108, 'English', 3, 8),
+(109, 'Psychology', 3, 9),
+(110, 'Economics', 3, 10);
+
+insert into enrollments (enrollment_id, student_id, course_id, enrollment_date) values
+(1, 1, 101, '2024-01-10'),
+(2, 2, 102, '2024-01-11'),
+(3, 3, 103, '2024-01-12'),
+(4, 4, 104, '2024-01-13'),
+(5, 5, 105, '2024-01-14'),
+(6, 6, 106, '2024-01-15'),
+(7, 7, 107, '2024-01-16'),
+(8, 8, 108, '2024-01-17'),
+(9, 9, 109, '2024-01-18'),
+(10, 10, 110, '2024-01-19');
+
+insert into payments (payment_id, student_id, amount, payment_date) values
+(1, 1, 1000.00, '2024-02-01'),
+(2, 2, 1200.50, '2024-02-02'),
+(3, 3, 1500.75, '2024-02-03'),
+(4, 4, 1100.00, '2024-02-04'),
+(5, 5, 1300.25, '2024-02-05'),
+(6, 6, 1400.00, '2024-02-06'),
+(7, 7, 1250.50, '2024-02-07'),
+(8, 8, 1600.00, '2024-02-08'),
+(9, 9, 1700.75, '2024-02-09'),
+(10, 10, 1800.00, '2024-02-10');
